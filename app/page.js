@@ -1,6 +1,5 @@
 'use client' 
 import React, { useState } from 'react';
-import { client } from "@/sanity/lib/client";
 
 
 export default function Home() {
