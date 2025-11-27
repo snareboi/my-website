@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+p {
+    padding-top: 1em;
+}
+
+/* @theme {
+   --color-primary-50: var(--color-neutral-50);
+   --color-primary-100: var(--color-neutral-100);
+   ...
+   --color-primary-950: var(--color-neutral-950);
+
+   --color-secondary-50: var(--color-blue-50);
+   --color-secondary-100: var(--color-blue-100);
+   ...
+   --color-secondary-950: var(--color-blue-950);
+} */
