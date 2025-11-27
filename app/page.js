@@ -6,7 +6,6 @@ import { client } from "@/sanity/lib/client";
 export default function Home() {
   return (
     <>
-      <Button />
       <Article />
       <Numbers />
     </>
@@ -15,18 +14,6 @@ export default function Home() {
 
 
 
-
-function Button() {
-  return (
-    <div className="p-4 m-4">
-      <h1 className="font-bold text-3xl">Number Generator</h1>
-      <button className="p-4 mt-4 bg-gray-400 border-2 hover:bg-gray-300 hover:cursor-pointer">
-        Generate Numbers
-      </button>
-      <p id="numbers"></p>
-    </div>
-  )
-}
 
 function Article() {
   return (
